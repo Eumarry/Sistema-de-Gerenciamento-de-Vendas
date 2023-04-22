@@ -13,5 +13,5 @@ class SistemaDeVendas:
         self.vendas.append(venda)
 sistema_de_vendas = SistemaDeVendas()
 
-venda = Venda(1, "Produto A", 2, 10.0, 20.0)
+venda = Venda(1, "Produto A", 2, 10.0, 20)
 sistema_de_vendas.registrar_venda(venda)
